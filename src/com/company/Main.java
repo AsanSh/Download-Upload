@@ -26,7 +26,7 @@ public class Main {
             }
 
             Semaphore semaphore = new Semaphore(3);
-            for (int i = 1; i < 10; i++) {
+            for (int i = 1; i < 11; i++) {
                 Download download = new Download(semaphore, i, cdl1);
                 download.start();
             }

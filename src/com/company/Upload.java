@@ -25,7 +25,7 @@ public class Upload extends Thread{
                 sleep(100);}
             System.out.println("Загрузка завершена");
         sleep(1000);
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 11; i++) {
                 System.out.println("Подготовка файла для загрузки"+i);
                 sleep(300);
             }
